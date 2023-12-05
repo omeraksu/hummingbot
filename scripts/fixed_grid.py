@@ -15,7 +15,7 @@ from hummingbot.strategy.script_strategy_base import ScriptStrategyBase
 
 class FixedGrid(ScriptStrategyBase):
     # Parameters to modify -----------------------------------------
-    trading_pair = "ENJ-USDT"
+    trading_pair = "AVAX-USDT"
     exchange = "ascend_ex"
     n_levels = 8
     grid_price_ceiling = Decimal(0.33)
